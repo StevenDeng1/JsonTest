@@ -4,38 +4,30 @@
         "name": "Example Name",
         "created_at": "2024-08-05T12:34:56",
         "media_asset": {
-            "name": "Asset Name",
-            "id": 101
+            "name": "Asset Name"
         }
     },
     {
         "id": 2,
         "name": "Another Name",
-        "created_at": "2024-08-06T08:45:00"
+        "media_asset": {
+            "id": 102
+        }
     },
     {
         "id": 3,
+        "created_at": "2024-08-06T08:45:00",
         "media_asset": {
             "name": "Third Asset",
-            "id": 103
+            "tags": ["tag3"]
         }
     },
     {
         "id": 4,
         "name": "Name with Missing Fields",
-        "created_at": "2024-08-07T14:22:33",
         "media_asset": {
             "name": "Fourth Asset",
-            "id": 104,
             "tags": ["tag1"]
-        }
-    },
-    {
-        "id": 5,
-        "media_asset": {
-            "name": "Media Only Asset",
-            "id": 105,
-            "tags": ["tag4", "tag5"]
         }
     }
 ]
